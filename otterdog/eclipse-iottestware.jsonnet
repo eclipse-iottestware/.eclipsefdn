@@ -4,7 +4,6 @@ orgs.newOrg('eclipse-iottestware') {
   settings+: {
     description: "Eclipse IoT-Testware project repositories",
     name: "Eclipse IoT-Testware",
-    two_factor_requirement: false,
     web_commit_signoff_required: false,
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
