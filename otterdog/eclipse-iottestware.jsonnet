@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-iottestware') {
+orgs.newOrg('technology.iottestware', 'eclipse-iottestware') {
   settings+: {
     description: "Eclipse IoT-Testware project repositories",
     name: "Eclipse IoT-Testware",
